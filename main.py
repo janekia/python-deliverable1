@@ -31,12 +31,11 @@ parsum = par
 x = score - parsum
 
 if score > parsum:
-        print(f"Nice try, {name}! Your total score  was  + {score - parsum} over par.")
+    print(f"Nice try, {name}... Your total par was: +{x}")
 elif score < parsum:
-        print(f"Great job, {name}! Your total score  was - {score - parsum} under par.")
+    print(f"Great job{name}! Your total par was: -{x}")
 else:
-        print(f"Good game, {name}! Your total score was right on par.")
-
+    print(f"Good game, {name}. Your total par was: 0")
 
 
 if holes == 6:
@@ -68,10 +67,10 @@ if holes == 6:
 
 
     if score > parsum:
-        print(f"Nice try, {name}! Your total score was + {score - parsum} over par.")
-    elif score < par_sum:
-        print(f"Great job, {name}! Your total score was - {parsum - score} under par.")
+        print(f"Nice try, {name}... Your total par was: +{x}")
+    elif score < parsum:
+        print(f"Great job{name}! Your total par was: -{x}")
     else:
-        print(f"Good game, {name}! Your total score was right on par.")
+        print(f"Good game, {name}. Your total par was: 0")
 
 
